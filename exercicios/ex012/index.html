@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/meu-video720.webm" width="500" controls></video>
+
+    <video width="720" controls poster="imagens/video-capa.jpg" autoplay loop muted>
+        <source src="midia/meu-video720.webm" type="video/webm">
+        <source src="midia/meu-video720.mp4" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BljUsIPLg3Q?si=VV_hcJAG-FhEGgrr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://player.vimeo.com/video/137613889?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="6LD - Commissioned Commercial"></iframe>
+
+    <video width="560" preload="metadata" x-webkit-airplay="allow" playsinline="playsinline" webkit-playsinline="true" class="vjs-tech" id="vjs_video_1715_html5_api" tabindex="-1" role="application" autoplay controls src="https://videocdn.cos.tv/video/58489901334449152.mp4?Expires=1740954034&amp;Signature=RhW9bEc2hYMv~7u8o9ZS8OkLyzTOOQ2ybMJY-GxEp5RWzJLDArgCldiGDvJaXegDL6bv0IpNF3e0JQbk4pl3HcSFIPHhHuCAdj1qgfTb1hP4UmCZaeuqtlFw78ys3V~KSgKbjXeHi8GvhISM4Znk4Nz55NMpZiEGlCa9uVXaum45BXHWRSRtk1q-v1eAv544z1Uq5LJl7h5rZmiH2qp-UYC1Z7tPDp5vELz6Xm9lZE~-ZqJwaPLoFeIbD8d7zNDD8CxEx5oESQTAyZYdMsjuo9U71r6qp7dOJ3g-ahJ4Ct~gBA9p16eqyPYDGh9vGbepBJpVlD9BzLqvlTUz9-wt7Q__&amp;Key-Pair-Id=APKAJ2AQKNFFAUYSAMUQ"></video>
+</body>
+</html>
